@@ -74,3 +74,25 @@
     background: red;
     color: white;
 }
+
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.nav-cart-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

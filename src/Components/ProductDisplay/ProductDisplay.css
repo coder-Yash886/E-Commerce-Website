@@ -1,0 +1,137 @@
+.productdisplay {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 50px 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.productdisplay-left {
+  display: flex;
+  gap: 15px;
+}
+
+.productdisplay-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.productdisplay-img-list img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid #eee;
+}
+
+.productdisplay-img-list img:hover {
+  border: 2px solid #ff4141;
+}
+
+.productdisplay-main-img {
+  width: 420px;
+  height: 520px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+
+.productdisplay-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
+  max-width: 480px;
+}
+
+.productdisplay-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #222;
+}
+
+.productdisplay-prices {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.new-price {
+  color: #ff4141;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.productdisplay-description {
+  color: #444;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+
+.size-heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin-top: 10px;
+}
+
+.size-and-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.productdisplay-sizes {
+  display: flex;
+  gap: 12px;
+}
+
+.productdisplay-sizes div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.productdisplay-sizes div:hover {
+  background-color: #ff4141;
+  color: white;
+  border-color: #ff4141;
+}
+
+
+.addtocart-btn {
+  background-color: #ff4141;
+  color: white;
+  border: none;
+  padding: 15px 35px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.addtocart-btn:hover {
+  background-color: #e63a3a;
+}
